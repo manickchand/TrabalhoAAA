@@ -11,7 +11,7 @@ class HomeFragment : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance(param1: String, param2: String) = HomeFragment()
+        fun newInstance() = HomeFragment()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
